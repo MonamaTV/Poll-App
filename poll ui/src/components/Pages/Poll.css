@@ -1,0 +1,176 @@
+.danger {
+  color: rgba(161, 55, 55, 0.842);
+}
+.poll__container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  color: #3863b4;
+  justify-content: center;
+}
+.instructions {
+  margin: 20px 0px;
+  color: gray;
+}
+.instructions ul {
+  margin: 5px 30px;
+}
+.create__poll {
+  width: 100%;
+}
+.poll__options {
+  color: #707e99;
+}
+.results__content {
+  padding: 10px 0;
+  color: #3863b4;
+  font-size: 15px;
+  font-weight: 900;
+}
+.results__content h5,
+.text__results {
+  color: gray;
+}
+.poll__options ul,
+.text__results ul {
+  list-style: outside;
+  padding: 10px 40px;
+}
+.poll__options button {
+  border: none;
+  border-radius: 2px;
+  background: inherit;
+  margin-right: 3px;
+  padding: 3px;
+}
+.poll__options .prev {
+  color: gray;
+}
+.poll__options .publish {
+  background: rgba(55, 134, 36, 0.938);
+  color: #fff;
+}
+.poll__options .time__date {
+  display: flex;
+  margin: 10px 0;
+}
+.content {
+  text-align: left;
+}
+.charts {
+  box-shadow: 1px 1px 0.55rem rgba(0, 0, 0, 0.301);
+  padding: 20px;
+}
+
+.voting__header ul {
+  margin-bottom: 20px;
+}
+.voting__options {
+  text-transform: capitalize;
+  padding: 30px 20px;
+  box-shadow: 1px 1px 0.55rem rgba(0, 0, 0, 0.301);
+  color: #3863b4;
+}
+.voting__options h4 {
+  margin: 0px 0 7px 0;
+}
+.voting__options .input {
+  padding: 2px;
+  margin: 4px;
+}
+.voting__options input {
+  padding: 2px;
+  margin: 4px;
+}
+.voting__options small {
+  font-size: 12px;
+  text-transform: none;
+  margin: 7px 0px;
+}
+/* Voting item */
+.polling__container {
+  margin-top: 80px;
+  padding: 20px;
+  height: 100vh;
+}
+.poll__item {
+  color: #3863b4;
+  text-decoration: none;
+  padding: 10px 10px;
+  width: 100%;
+  display: block;
+  box-shadow: 1px 1px 0.55rem rgba(0, 0, 0, 0.089);
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+.poll__item h4 {
+  margin: 5px 0;
+}
+.poll__item p,
+.poll__item small {
+  color: gray;
+  padding: 5px 0;
+  font-size: 14px;
+}
+.pagination {
+  margin: 15px 0;
+  padding: 10px 10px;
+}
+.pagination button {
+  border: none;
+  cursor: pointer;
+  padding: 2px 3px;
+  margin: 3px;
+  outline: none;
+  color: #fff;
+  background: #3863b4;
+}
+/* The submission page */
+.media {
+  padding: 10px 0;
+}
+.media img {
+  width: 15px;
+}
+.whatsapp {
+  background: rgb(56, 187, 56);
+}
+.linkedin {
+  background: rgb(120, 147, 165);
+}
+.twitter {
+  background: rgb(102, 173, 201);
+}
+.media > * {
+  color: #fff;
+  margin-right: 5px;
+  padding: 2px;
+  font-size: 12px;
+  text-decoration: none;
+}
+.media a > * {
+  transform: translateY(2px);
+}
+/* Download */
+.download {
+  cursor: pointer;
+  font-size: 13px;
+  color: #3863b4;
+  text-decoration: none;
+  background: #fff;
+  border: none;
+}
+/* Add Poll Button */
+.add__button {
+  background: inherit;
+  border: 2px solid #3863b4;
+  padding: 10px 12px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #3863b4;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+}

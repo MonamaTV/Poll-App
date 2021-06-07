@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+::selection {
+  color: #fff;
+  background: #3863b4;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  transition: background ease-in-out 2s;
+}
+
+@media only screen and (min-width: 600px) {
+  .home__container,
+  .poll__container {
+    display: flex;
+  }
+  .home__container {
+    padding: 40px;
+    margin: 0 !important;
+    flex-direction: row !important;
+  }
+  .home__container .content {
+    padding: 0 !important;
+    width: 50%;
+  }
+  .home__container .img__container {
+    width: 100%;
+  }
+  /* Poll container */
+  .poll__container,
+  .polling__container {
+    justify-content: center;
+    width: 550px !important;
+    margin: 0 auto;
+  }
+  /* The chart */
+  .charts canvas {
+    height: 210px !important;
+    width: 100% !important;
+  }
+  /* Start */
+  .poll__modal .input__start,
+  .modal__setup {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 500px;
+    display: block;
+  }
+
+  .modal__setup * {
+    padding: 0 1rem !important;
+  }
+}

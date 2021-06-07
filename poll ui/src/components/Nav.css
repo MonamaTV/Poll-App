@@ -1,0 +1,63 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: row;
+  background: rgb(33, 33, 47);
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo__container img {
+  width: 70px;
+  height: 70px;
+}
+
+.menu > * {
+  text-decoration: none;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #3863b4;
+}
+.active__menu {
+  color: #fff;
+  border-radius: 3px;
+  padding: 5px;
+  background: #3863b4;
+}
+.input__check {
+  display: inline;
+}
+.input__check input {
+  height: 0;
+  transform: translateY(-15px);
+  margin-right: 10px;
+  transition: all ease 0.4s;
+}
+.input__check input > img {
+  height: 10px;
+}
+
+.input__check input:checked::after {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  content: "";
+  background: url("../assets/img/moon.svg");
+  background-size: 100%;
+}
+.input__check input::after {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  content: "";
+  background: url("../assets/img/sun.svg");
+  background-size: 100%;
+}
