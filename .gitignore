@@ -1,0 +1,11 @@
+./poll ui/node_modules
+./poll-api/node_modules
+/poll ui/node_modules
+/poll-api/node_modules
+.env
+./build
+/build
+./poll-api/build
+./poll ui/build
+/poll-api/build
+/poll ui/build
